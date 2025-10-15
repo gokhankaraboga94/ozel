@@ -602,7 +602,7 @@ box.scrollTo({ top: box.scrollHeight, behavior: 'smooth' });
       const msg = snapshot.val();
       const btn = document.querySelector(`.like-btn[data-key="${msgKey}"]`);
       if (btn) {
-        btn.innerHTML = `❤️ ${msg.likes || 0}`;
+        btn.innerHTML = `👍🏻 ${msg.likes || 0}`;
       }
     });
 
